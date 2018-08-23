@@ -1,0 +1,51 @@
+\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{casual} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+%%%%%%%%
+%
+%%%%%%%%
+%\usepackage[utf8]{inputenc}
+%\usepackage{CJKutf8}
+%\foreignlanguage{greek}{φΔδ}\begin{CJK}{UTF8}{gbsn}汉\end{CJK}
+
+
+\usepackage{fontspec}   %加這個就可以設定字體
+\usepackage{xeCJK}       %讓中英文字體分開設置
+\usepackage{CJKnumb}
+%\setCJKmainfont{SimSun} %標楷體} %設定中文為系統上的字型，而英文不去更動，使用原TeX字型
+\setCJKmainfont{MingLiU}
+%\setCJKmainfont{PMingLiU}
+
+
+
+
+
+
+
+
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+
+\usepackage[scale=0.78]{geometry} 
+
+\firstname{} % Your first name
+\familyname{} % Your last name
+\photo[][]{pictures/2017photo}
+% All information in this block is optional, comment out any lines you don't need
+\title{}
+\address{}{}
+\mobile{}
+\email{}
+
+
+\begin{document}
+\makecvtitle % Print the CV title
+
+\section{Latex}
+\cvitem{}{Hello 你好嗎 
+\newline world 我很好
+}
+
+\end{document}
